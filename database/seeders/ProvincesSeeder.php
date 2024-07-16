@@ -51,7 +51,7 @@ class ProvincesSeeder extends Seeder
             'created_at' => now(),
             'region_id'=>'5',
             ],
-            ['name' => "อาซัน",
+            ['name' => "โซล",
             'created_at' => now(),
             'region_id'=>'5',
             ],

@@ -13,10 +13,10 @@ return new class extends Migration
     {
         Schema::create('students', function (Blueprint $table) {
             $table->id();
-            $table->string('firstname')->nullable();
+            $table->string('name')->nullable();
             $table->string('lastname')->nullable();
             $table->string('email')->nullable();
-            $table->foreignId('province_id')->unique();
+            $table->foreignId('province_id');
             $table->timestamps();
         });
 
