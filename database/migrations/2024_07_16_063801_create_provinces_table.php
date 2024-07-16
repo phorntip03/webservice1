@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('provinces', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable();
-            $table->foreignId('region_id')->unique();
+            $table->foreignId('region_id');
             $table->timestamps();
         });
     }
